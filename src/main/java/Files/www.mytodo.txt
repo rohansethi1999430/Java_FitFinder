@@ -1,0 +1,2 @@
+Search frequency : Show cities from the history and update it at the end of the program.
+Province search
