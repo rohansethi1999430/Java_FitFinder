@@ -27,8 +27,8 @@ public class App
 	private static DealFinder dealFinder = new DealFinder();
 	public static final String outputFolderName = "ParsedFiles";
 	public static final String inputFolderName = "Webpages";
-	public static final String citySearchFile = "/Users/rohansethi/Downloads/FitFinder(2)2/FitFinder/FitFinder/src/main/java/Files/CitySearchHistory.txt";
-	public static final String keywordSearchFile = "src\\main\\java\\Files\\KeySearchHistory.txt";
+	public static final String citySearchFile = "/Users/rohansethi/Downloads/FitFinder (2) 2/FitFinder/FitFinder/src/main/java/Files/CitySearchHistory.txt";
+	public static final String keywordSearchFile = "/Users/rohansethi/Downloads/FitFinder (2) 2/FitFinder/FitFinder/src/main/java/Files/KeySearchHistory.txt";
 	private static final String URL_REGEX = "^(https?|ftp)://([A-Za-z0-9.-]+)(:[0-9]+)?(/[A-Za-z0-9/]+)?$";
 	public static Hashtable<String, Integer> citySrhCount;
 	public static Stack<String> keySrchCount;

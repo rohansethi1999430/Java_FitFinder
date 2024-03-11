@@ -28,7 +28,7 @@ public class FrequencyCount {
         for (String fileCNC : files) {
             Map<String, Integer> frequencyMap = new HashMap<>();
 
-            try (BufferedReader redrCNC = new BufferedReader(new FileReader(new File("ParsedFiles\\" + fileCNC)))) {
+            try (BufferedReader redrCNC = new BufferedReader(new FileReader(new File("/Users/rohansethi/Downloads/FitFinder (2) 2/FitFinder/FitFinder/ParsedFiles/" + fileCNC)))) {
                 String lineCNC;
 
                 while ((lineCNC = redrCNC.readLine()) != null) {

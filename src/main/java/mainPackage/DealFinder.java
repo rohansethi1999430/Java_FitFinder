@@ -284,7 +284,7 @@ public class DealFinder {
     String Price1 = edgeWebDriver.findElement(By.xpath("//*[@id=\"__next\"]/div/div/div[2]/div[2]/div/div[2]/div[1]/div/div/div[1]/div[3]/p[1]")).getText();
     String Price2 = edgeWebDriver.findElement(By.xpath("//*[@id=\"__next\"]/div/div/div[2]/div[2]/div/div[2]/div[2]/div/div/div[1]/div[3]/p[1]")).getText();
 
-    WebElement inputElement = edgeWebDriver.findElement(By.xpath("//*[@id=\":R1lb5lel6:\"]"));
+    WebElement inputElement = edgeWebDriver.findElement(By.xpath("//*[@id=\":R1lb9lel6:\"]"));
   //  WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=':R1lb5lel6:']")));
     inputElement.sendKeys(userInput);
 
